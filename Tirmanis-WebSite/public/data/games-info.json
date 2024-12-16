@@ -1,0 +1,23 @@
+[
+  { 
+    "href": "/valorant",
+    "src": "src/assets/img/valorant.png",
+    "alt": "Valorant",
+    "logoSrc": "src/assets/img/valorant.svg",
+    "logoAlt": "Valorant Logo"
+  },
+  { 
+    "href": "/lol",
+    "src": "src/assets/img/lol.png",
+    "alt": "Lol",
+    "logoSrc": "src/assets/img/lol.svg",
+    "logoAlt": "Lol Logo"
+  },
+  { 
+    "href": "/wr",
+    "src": "src/assets/img/wr.png",
+    "alt": "Wild Rift",
+    "logoSrc": "src/assets/img/wildrift.svg",
+    "logoAlt": "Wild Rift Logo"
+  }
+]

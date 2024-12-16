@@ -1,0 +1,32 @@
+{
+  "valorant": {
+    "dataFile": "valo-data.json",
+    "promo": "assets/img/valorant-detail-logo.svg",
+    "tournaments": [
+      {
+        "url": "https://tr.ready2.gg/tournaments/valorant/valorant-tirmanis-serisi-sezon-arasi-kupasi",
+        "src": "assets/img/tournament-img/valo-sezon-arasi-kupasi.jpg"
+      }
+    ]
+  },
+  "lol": {
+    "dataFile": "lol-data.json",
+    "promo": "assets/img/lol-detail-logo.svg",
+    "tournaments": [
+      {
+        "url": "https://tr.ready2.gg/tournaments/lol/league-of-legends-tirmanis-serisi-sezon-arasi-kupasi",
+        "src": "assets/img/tournament-img/lol-sezon-arasi-kupasi.jpg"
+      }
+    ]
+  },
+  "wr": {
+    "dataFile": "wr-data.json",
+    "promo": "assets/img/wild-rift-detail-logo.svg",
+    "tournaments": [
+      {
+        "url": "https://tr.ready2.gg/tournaments/wildrift/lol-wild-rift-tirmanis-serisi-sezon-arasi-kupasi",
+        "src": "assets/img/tournament-img/wr-sezon-arasi-kupasi.jpg"
+      }
+    ]
+  }
+}

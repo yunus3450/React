@@ -1,0 +1,14 @@
+[
+  { 
+    "url": "https://tr.ready2.gg/tournaments/lol/league-of-legends-tirmanis-serisi-sezon-arasi-kupasi",
+    "src": "assets/img/tournament-img/lol-sezon-arasi-kupasi.jpg"
+  },
+  { 
+    "url": "https://tr.ready2.gg/tournaments/wildrift/lol-wild-rift-tirmanis-serisi-sezon-arasi-kupasi",
+    "src": "assets/img/tournament-img/wr-sezon-arasi-kupasi.jpg"
+  },
+  { 
+    "url": "https://tr.ready2.gg/tournaments/valorant/valorant-tirmanis-serisi-sezon-arasi-kupasi",
+    "src": "assets/img/tournament-img/valo-sezon-arasi-kupasi.jpg"
+  }
+]

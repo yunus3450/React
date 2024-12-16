@@ -1,0 +1,65 @@
+{
+  "wr": {
+    "title": "Wild Rift Turnuvası",
+    "image": "/src/assets/img/tournament-img/lol-tirmanis-serisi-kupa-4.jpg",
+    "description": [
+      "Tırmanış Serisi’nde sezon arası dönemi, Riot Games Kampüs Elçileri organizatörlüğünde Kampüs Kupası ile devam ediyor! 4-5-6 Eylül tarihlerinde düzenlenecek olan üniversiteler arası VALORANT Kampüs Kupası’na tüm üniversite öğrencilerini bekliyoruz!"
+    ],
+    "links": [
+      {
+        "text": "Discord",
+        "url": "https://discord.gg/..."
+      },
+      {
+        "text": "Kayıt",
+        "url": "https://forms.gle/..."
+      },
+      {
+        "text": "Kurallar",
+        "url": "https://docs.google.com/..."
+      },
+      {
+        "text": "Sunucu",
+        "url": "https://discord.gg/..."
+      }
+    ],
+    "prizes": [
+      "1. takım: 5000 ₺",
+      "2. takım: 2500 ₺",
+      "3. takım: 1250 ₺"
+    ],
+    "closing": "Başarılar dileriz!"
+  },
+  "valorant": {
+    "title": "VALORANT Turnuvası",
+    "image": "/src/assets/img/tournament-img/valorant-tirmanis-serisi-turnuva-2.jpg",
+    "description": [
+      "VALORANT turnuvasına katılmak için...",
+      "Kurallar ve diğer bilgiler için..."
+    ],
+    "links": [
+      {
+        "text": "Discord",
+        "url": "https://discord.gg/..."
+      },
+      {
+        "text": "Kayıt",
+        "url": "https://forms.gle/..."
+      },
+      {
+        "text": "Kurallar",
+        "url": "https://docs.google.com/..."
+      },
+      {
+        "text": "Sunucu",
+        "url": "https://discord.gg/..."
+      }
+    ],
+    "prizes": [
+      "1. takım: 5000 ₺",
+      "2. takım: 2500 ₺",
+      "3. takım: 1250 ₺"
+    ],
+    "closing": "Başarılar dileriz!"
+  }
+}

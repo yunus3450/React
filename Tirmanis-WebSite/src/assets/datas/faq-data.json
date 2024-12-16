@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "question": "Tırmanış Serisi nedir?",
+      "answer": "Tırmanış Serisi, amatör oyunculara yönelik, League of Legends, VALORANT ve LoL: Wild Rift oyunlarını için düzenlenen rekabetçi bir turnuva serisidir."
+    },
+    {
+      "id": 2,
+      "question": "Tırmanış Serisi’nde kimler oynayabilir?",
+      "answer": "Turnuva katılımcıları için Türkiye Cumhuriyeti vatandaşı olma veya Türkiye Cumhuriyeti'nde yasal ikamet hakkına sahip olma şartı aranır; ayrıca katılımcıların Türkiye Cumhuriyeti sınırları içinde bulunmaları ve aktif ikamet etmeleri gereklidir. Başka ülkelerden katılım kabul edilmez."
+    },
+    {
+      "id": 3,
+      "question": "Tırmanış Serisi’nde yer alan turnuvalara katılım için yaş sınırı nedir?",
+      "answer": "Normal sezonda oyuncuların League of Legends ve VALORANT turnuvalarına katılmak için en az 16 yaşını doldurmuş olmaları, LoL: Wild Rift turnuvaları için 13 yaşını doldurmuş olmaları gerekmektedir. Ara sezonda yapılan kupalarda yaş sınırı değişkenlik gösterebilir, kural setini inceleyebilir ya da Discord sunucumuz üzerinden sorunuzu iletebilirsiniz."
+    },
+    {
+      "id": 4,
+      "question": "Tırmanış Serisi’ne katılmak için takımca herhangi bir ücret ödememiz gerekir mi?",
+      "answer": "Hayır, turnuvalara katılım tamamen ücretsizdir."
+    },
+    {
+      "id": 5,
+      "question": "Oyuncuların birden fazla takımda oynaması mümkün müdür?",
+      "answer": "Hayır, bir oyuncu aktif bir turnuva bünyesinde birden fazla takımda katılım sağlayamaz veya bir takımdan diğerine transfer olamaz. Ancak oyuncu farklı bir turnuvada, farklı bir kadro ile katılım sağlayabilir."
+    },
+    {
+      "id": 6,
+      "question": "Tırmanış Serisi’nde split içerisinde yer alan her turnuvaya katılım zorunlu mu?",
+      "answer": "Hayır, her turnuvaya katılım zorunlu değil fakat ne kadar çok turnuvaya katılırsanız, o kadar fazla puan toplama imkanınız olur ve Split Playoff’larına katılma şansınız artar."
+    },
+    {
+      "id": 7,
+      "question": "Tırmanış Serisi’nin formatı nedir?",
+      "answer": "Tırmanış Serisi’nin formatı, Split içerisinde yer alan birbirinden bağımsız turnuvalarda rekabet ederek ve başarılı olarak Tırmanış Serisi Puanı toplamak ve Split sonundaki Playoff’lara katılabilmek için Liderlik Tablosu’nda en yüksek Tırmanış Serisi Puanı’na sahip 8 takımdan biri olma üzerine kuruludur."
+    },
+    {
+      "id": 8,
+      "question": "Tırmanış Serisi’ndeki turnuvaların klasmanları ne anlama gelir?",
+      "answer": "Turnuva klasmanları turnuvaların yapısına ve organizatörüne göre değişiklik gösterir. 1 Klasman’da yer alan turnuvalar Tırmanış Serisi organizasyonu tarafından düzenlenir ve bu turnuvalar en yüksek Tırmanış Serisi puanını kazandırır. 2. ve 3. Klasman turnuvalar ise Riot Games onaylı turnuva organizatörleri, içerik üreticileri, seçili pc cafeler gibi organizatörler tarafından düzenlenir. Klasmanlara göre kazanılacak Tırmanış Serisi Puanları’na göz atmak için Tırmanış Serisi Kural Seti’ni inceleyebilirsin."
+    },
+    {
+      "id": 9,
+      "question": "Tırmanış Serisi’nin ödül havuzu nedir?",
+      "answer": "Tırmanış Serisi Split 1’de VALORANT ödül havuzu 300.000 TL, League of Legends ödül havuzu 300.000 TL ve Wild Rift ödül havuzu 250.000 TL."
+    }
+  ]
+  
