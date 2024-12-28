@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { initializeProducts } from '../../../redux/slices/productSlice';
 import CategoryFilter from '../../organisms/CategoryFilter/CategoryFilter';
 import ProductList from '../../organisms/ProductList/ProductList';
+import Cart from '../Cart/Cart';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -16,6 +17,7 @@ const Home = () => {
       <h1>E-Ticaret Sitesi</h1>
       <CategoryFilter />
       <ProductList />
+      <Cart></Cart>
     </div>
   );
 };
