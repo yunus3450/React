@@ -15,6 +15,7 @@ const Home = () => {
   return (
     <div>
       <h1>E-Ticaret Sitesi</h1>
+      
       <CategoryFilter />
       <ProductList />
       <Cart></Cart>

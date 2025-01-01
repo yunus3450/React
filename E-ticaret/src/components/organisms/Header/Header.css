@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .header .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header .navigation a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header .navigation a:hover {
+    text-decoration: underline;
+  }
+  
