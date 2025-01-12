@@ -22,7 +22,7 @@ This project is a simple image gallery implemented with React, TypeScript, and V
 
 2.   
  ```bash
-cd React/Gallery-Images
+ cd React/Gallery-Images
 
 4.  
  ```bash
