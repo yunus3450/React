@@ -21,16 +21,16 @@ This project is a simple image gallery implemented with React, TypeScript, and V
    git clone https://github.com/yunus3450/React/Gallery-Images.git
 
 2. Navigate to the project folder:
- ```bash
- cd React/Gallery-Images
+    ```bash
+    cd React/Gallery-Images
 
 4.  Install dependencies:
- ```bash
-npm install
+    ```bash
+   npm install
 
 5. Start the development server: 
- ```bash
-npm run dev
+    ```bash
+   npm run dev
 
 ## Usage
 
