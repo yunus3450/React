@@ -26,7 +26,7 @@ This project is a simple image gallery implemented with React, TypeScript, and V
 
 4.  Install dependencies:
     ```bash
-   npm install
+    npm install
 
 5. Start the development server: 
     ```bash
