@@ -19,3 +19,24 @@ This project is a simple image gallery implemented with React, TypeScript, and V
 1. Clone the repository:
    ```bash
    git clone https://github.com/yunus3450/React/Gallery-Images.git
+
+2.   
+   cd React/Gallery-Images
+
+3.  
+  npm install
+
+4. 
+  npm run dev
+
+## Usage
+
+- Click on any image in the gallery to open it in a modal.
+- Use the next and previous buttons to navigate between images.
+- Click the close button to close the modal.
+
+
+
+  
+  
+
