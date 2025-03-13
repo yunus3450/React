@@ -8,9 +8,9 @@ Virtual DOM (Sanal DOM), React’in performansı artırmak için kullandığı b
 
 Bu işlem, **daha az maliyetle ve daha hızlı bir şekilde** arayüz güncellemelerini sağlar. Ancak, her render işleminde gereksiz bileşenlerin tekrar oluşturulması performans kayıplarına yol açabilir. Bu nedenle **React.memo, useMemo ve useCallback** gibi optimizasyon teknikleri kullanılır.  
 
----
 
-## Virtual DOM Manipülasyonu Açısından Öne Çıkanlar  
+
+Virtual DOM Manipülasyonu Açısından Öne Çıkanlar  
 
 ### 1. React.memo ile Bileşen Optimizasyonu  
 
