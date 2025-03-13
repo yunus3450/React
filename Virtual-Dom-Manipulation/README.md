@@ -2,7 +2,7 @@
 
 Bu proje, **React'in Virtual DOM'u nasıl yönettiğini** anlamak için bazı temel optimizasyon tekniklerini içerir. React, bileşenleri tekrar render ederken performansı artırmak için **Virtual DOM** kullanır. Bu kodda **useMemo, useCallback ve React.memo** gibi optimizasyon yöntemleriyle gereksiz render işlemleri engellenmeye çalışılmıştır.  
 
-## Virtual DOM Nedir?  
+Virtual DOM Nedir?  
 
 Virtual DOM (Sanal DOM), React’in performansı artırmak için kullandığı bir tekniktir. **Gerçek DOM'u doğrudan güncellemek yerine**, önce Virtual DOM üzerinde değişiklikler yapılır ve ardından farklar (diffing algoritması ile) hesaplanarak yalnızca gerekli bölümler **gerçek DOM'a yansıtılır**.  
 
