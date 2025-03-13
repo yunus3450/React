@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+Lazy Loading ve Code Splitting
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lazy Loading (Tembel Yükleme), ihtiyaç duyulmayan kodların başlangıçta yüklenmesini engelleyip, yalnızca gerektiğinde yüklenmesini sağlayan bir tekniktir.
 
-## Available Scripts
+Code Splitting (Kod Bölme) ise büyük JavaScript dosyalarını daha küçük parçalara ayırarak gerektiği anda yüklenmesini sağlar.
 
-In the project directory, you can run:
+🚀 Neden Önemlidir?
 
-### `npm start`
+Sayfa Açılış Sürecini Azaltır
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Kullanıcı ilk giriş yaptığında sadece temel dosyalar indirilir.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Performansı Artırır
 
-### `npm test`
+Kullanıcı etkileşime girdiğinde ilgili bileşenler yüklenir.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Bant Genişliği Tasarrufu Sağlar
 
-### `npm run build`
+Kullanıcının ihtiyacı olmayan kodlar yüklenmez.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📌 Lazy Loading ve Code Splitting Nerelerde Kullanılır?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Büyük Bileşenler (Grafikler, Harita API'leri)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Sayfa Bazlı Yüklemeler (react-router-dom ile kullanılır)
 
-### `npm run eject`
+Üçüncü Parti Kütüphaneler (Moment.js gibi büyük kütüphaneler)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✅ Avantajları (Faydaları)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1️⃣ Sayfa Açılış Sürecini Azaltır 🚀
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Kullanıcı yalnızca temel bileşenleri indirir.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Sayfanın daha hızlı yüklenmesini sağlar.
 
-## Learn More
+2️⃣ Daha İyi Performans Sağlar 🎯
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Kullanıcı etkileşime girene kadar gereksiz bileşenler yüklenmez.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Hafızada daha az yer kaplar, büyük projelerde performans artışı sağlar.
 
-### Code Splitting
+3️⃣ Bant Genişliği (Data Kullanımı) Tasarrufu 📉
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Kullanıcı yalnızca ihtiyacı olan kodu indirir.
 
-### Analyzing the Bundle Size
+Mobil kullanıcılar ve yavaş internet bağlantıları için avantajlıdır.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4️⃣ Büyük Projelerde Daha İyi Yönetim 🏗
 
-### Making a Progressive Web App
+Kodun farklı parçalar halinde yüklenmesi proje yönetimini kolaylaştırır.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Sayfa bazlı veya bileşen bazlı yükleme yapılabilir.
 
-### Advanced Configuration
+5️⃣ Kullanıcı Deneyimini Artırır 👍
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Kullanıcı hemen işlemlerini yapabilir, bekleme süreleri azalır.
 
-### Deployment
+"Yükleniyor..." gibi mesajlarla daha iyi bir deneyim sunar.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+❌ Dezavantajları (Zorluklar & Riskler)
 
-### `npm run build` fails to minify
+1️⃣ İlk Yükleme Sırasında Geçici Boşluklar Oluşabilir ⏳
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Lazy loaded bileşenler yüklenirken boş alanlar oluşabilir.
+
+Suspense fallback ile çözülebilir, ancak anlık gecikmeler olabilir.
+
+2️⃣ SEO Açısından Dezavantajlı Olabilir 🔍
+
+JavaScript ile dinamik olarak yüklenmesi arama motorlarının indeklemesini zorlaştırabilir.
+
+SSR (Server Side Rendering) veya Next.js gibi çözümler kullanılabilir.
+
+3️⃣ Kod Karmaşıklığını Artırabilir 🧩
+
+Hangi bileşenlerin ne zaman yükleneceğini takip etmek gerekebilir.
+
+Hata ayıklama süreci zorlaşabilir.
+
+4️⃣ Küçük Projelerde Pek Faydaları Olmaz ⚖
+
+Küçük projelerde lazy loading ve code splitting gereksiz olabilir.
+
+5️⃣ İlk Kullanımda Gecikme Olabilir ⏱
+
+Lazy load edilen bileşenler ilk kez yüklendiğinde ekstra bir gecikme olabilir.
+
+Sayfa veya bileşen tıklandığında anlık bir bekleme yaşanabilir.
